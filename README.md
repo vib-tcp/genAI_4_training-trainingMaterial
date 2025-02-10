@@ -47,7 +47,7 @@ edition:  1st
 orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"-->
 -->
 
-# Course Title
+# genAI for training
 
 ```json   @JSONLD
 {
@@ -81,26 +81,14 @@ orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"-->
     },
     {
       "@type": "Person",
-      "name": "Olivier Sand"
-    },
-    {
-      "@type": "Person",
       "name": "Alexander Botzki"
     }
   ],
   "contributor": [
     {
       "@type": "Person",
-      "name": "Yasmine Maes"
+      "name": "..."
     },
-    {
-      "@type": "Person",
-      "name": "Finn Bacall"
-    },
-    {
-      "@type": "Person",
-      "name": "Munazah Andrabi"
-    }
   ]
 }
 ```
@@ -239,6 +227,15 @@ Here are some great tips for learning and to get inspired for writing your own p
 - Model example pipeline on Variant Calling Analysis with NGS RNA-Seq data developed by CRG ([link](https://github.com/CRG-CNAG/CalliNGS-NF))
 - Tutorial by Andrew Severin ([link](https://bioinformaticsworkbook.org/dataAnalysis/nextflow/02_creatingAworkflow.html#gsc.tab=0))
 - Nextflow community basic training ([link](https://training.nextflow.io/basic_training/))
+
+# Resources - reading
+[python library converter markdown](https://www.linkedin.com/posts/diegopizzocaro_markitdown-ai-python-activity-7284449146084691969-IxVa/?utm_source=share&utm_medium=member_android)
+[Can Artificial Intelligence Embody Moral Values?](https://www.linkedin.com/posts/diegopizzocaro_markitdown-ai-python-activity-7284449146084691969-IxVa/?utm_source=share&utm_medium=member_android)
+[AI in education](https://www.linkedin.com/posts/markoehlert_book-edu-and-ai-activity-7293865512554348544-s4x8/?utm_source=share&utm_medium=member_desktop)
+[linkedin = Generative AI’s Impact on Critical Thinking: Revisiting Bloom’s Taxonomy](https://www.linkedin.com/posts/jonathan-boymal-448b5870_in-a-recent-paper-in-the-journal-of-marketing-activity-7292294193916301313-2wh7/?utm_source=share&utm_medium=member_desktop)
+[publication = Generative AI’s Impact on Critical Thinking: Revisiting Bloom’s Taxonomy](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://kclpure.kcl.ac.uk/ws/portalfiles/portal/317698194/gonsalves-2024-generative-ai-s-impact-on-critical-thinking-revisiting-bloom-s-taxonomy.pdf)
+[The EDUbox Artificial Intelligence](https://www.linkedin.com/posts/vrt_artifici%C3%ABle-intelligentie-slimme-machines-activity-7292919943690399746-3V26/?utm_source=share&utm_medium=member_desktop)
+
 
 # About us
 
