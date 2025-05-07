@@ -230,11 +230,71 @@ Here are some great tips for learning and to get inspired for writing your own p
 
 # Resources - reading
 [python library converter markdown](https://www.linkedin.com/posts/diegopizzocaro_markitdown-ai-python-activity-7284449146084691969-IxVa/?utm_source=share&utm_medium=member_android)
+
 [Can Artificial Intelligence Embody Moral Values?](https://www.linkedin.com/posts/diegopizzocaro_markitdown-ai-python-activity-7284449146084691969-IxVa/?utm_source=share&utm_medium=member_android)
+
 [AI in education](https://www.linkedin.com/posts/markoehlert_book-edu-and-ai-activity-7293865512554348544-s4x8/?utm_source=share&utm_medium=member_desktop)
+
 [linkedin = Generative AI’s Impact on Critical Thinking: Revisiting Bloom’s Taxonomy](https://www.linkedin.com/posts/jonathan-boymal-448b5870_in-a-recent-paper-in-the-journal-of-marketing-activity-7292294193916301313-2wh7/?utm_source=share&utm_medium=member_desktop)
+
 [publication = Generative AI’s Impact on Critical Thinking: Revisiting Bloom’s Taxonomy](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://kclpure.kcl.ac.uk/ws/portalfiles/portal/317698194/gonsalves-2024-generative-ai-s-impact-on-critical-thinking-revisiting-bloom-s-taxonomy.pdf)
+
 [The EDUbox Artificial Intelligence](https://www.linkedin.com/posts/vrt_artifici%C3%ABle-intelligentie-slimme-machines-activity-7292919943690399746-3V26/?utm_source=share&utm_medium=member_desktop)
+
+[AI impact in energy and water usage](https://ai-impact-risk.com/ai_energy_water_impact.html)
+
+[usign AI is not bad for the environment](https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for)
+
+[Linkedin: We want AI hallucinations](https://www.linkedin.com/posts/monika-szumi%C5%82o_artificialintelligence-llms-aicreativity-activity-7314948433457401857-NWlk/?utm_source=share&utm_medium=member_android&rcm=ACoAAABqGrYBTtGP9GGkyU9wUUDVqgt9cz9jvZg)
+
+[AI: the double-edged sword?](https://www.linkedin.com/pulse/ai-double-edged-sword-neil-almond-w4uwe/?trackingId=4WKQGf5LSyeRi3oGEqH0vQ%3D%3D)
+
+[report on (university level) usage of their AI model, Claude. April 2025](https://www.linkedin.com/posts/will-van-reyk_anthropic-ai-have-published-a-really-illuminating-activity-7315612753715474432-l0Vo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABqGrYBTtGP9GGkyU9wUUDVqgt9cz9jvZg)
+
+[“ChatGPT and next-generation assistants” training course](https://github.com/Yannael/gen-ai-sustain-brussels)
+
+- about the course: [linkedin link](https://www.linkedin.com/posts/yannaelb_ai-chatgpt-machinelearning-activity-7315628159599562752-6nr9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABqGrYBTtGP9GGkyU9wUUDVqgt9cz9jvZg)
+
+[AI energy use in everyday terms](https://engineeringprompts.substack.com/p/ai-energy-use)
+
+[Generative Biology](https://engineeringprompts.substack.com/p/generative-biology)
+
+[linkeding AI misleading and unethical behaviour](https://www.linkedin.com/posts/markoehlert_darkbench-benchmarking-dark-patterns-in-activity-7311904657428135937-WjK4/?utm_source=share&utm_medium=member_android&rcm=ACoAAABqGrYBTtGP9GGkyU9wUUDVqgt9cz9jvZg)
+
+[paper AI misleading and unethical behaviour](https://arxiv.org/abs/2503.10728)
+
+[AI to high school activity and reflection](https://www.linkedin.com/posts/jason-gulya_what-are-we-going-to-do-with-carl-ugcPost-7308553971122470912-r6xx/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABqGrYBTtGP9GGkyU9wUUDVqgt9cz9jvZg)
+
+[AI for educators CCBY - sydney university](https://canvas.sydney.edu.au/courses/63765)
+
+[AI for educator sydney iunversity linkedin post](https://www.linkedin.com/posts/dannydotliu_generativeai-ai-highereducation-activity-7307845773461729280-dhUf/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABqGrYBTtGP9GGkyU9wUUDVqgt9cz9jvZg)
+
+AI meets the classroom:
+- [linkedin](https://www.linkedin.com/posts/anna-mills-oer_the-data-so-far-on-ai-as-a-tutor-shows-just-activity-7307470251737104385-svvT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABqGrYBTtGP9GGkyU9wUUDVqgt9cz9jvZg)
+  
+- [When does chatGPT harm learning?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4941259) DOI:10.2139/ssrn.4941259
+
+- [Post-apocalyptic education](https://www.oneusefulthing.org/p/post-apocalyptic-education)
+  
+- [Perils of AI and Ed-Tech VIDEO YOUTUBE](https://www.youtube.com/watch?v=THQH6Uc6PNU)
+  
+[Estonia and OpenAI to bring ChatGPT to schools nationwide](https://openai.com/index/estonia-schools-and-chatgpt/)
+
+[PAPER generative AI’s Impact on Critical Thinking: Revisiting Bloom’s Taxonomy](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://kclpure.kcl.ac.uk/ws/portalfiles/portal/317698194/gonsalves-2024-generative-ai-s-impact-on-critical-thinking-revisiting-bloom-s-taxonomy.pdf)
+
+[LINKEDING POST generative AI’s Impact on Critical Thinking: Revisiting Bloom’s Taxonomy](https://www.linkedin.com/posts/jonathan-boymal-448b5870_in-a-recent-paper-in-the-journal-of-marketing-activity-7292294193916301313-2wh7/?utm_source=share&utm_medium=member_desktop)
+
+[AI in education](https://www.linkedin.com/posts/markoehlert_book-edu-and-ai-activity-7293865512554348544-s4x8/?utm_source=share&utm_medium=member_desktop)
+
+
+
+
+
+
+
+
+
+
 
 
 # About us
