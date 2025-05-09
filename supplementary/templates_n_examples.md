@@ -269,3 +269,156 @@ Based on the summary of the document *"Introduction to Medical Image Classificat
 ---
 
 Would you like this formatted into a printable lesson plan or teaching guide?
+
+# Create narratives to slides
+
+Giving the PDF of the slides AI should suggest the narrative to be explained in each slide. Supporting trainers with slide nnotation and increasinf FAIRness.
+
+### PROMPT:
+
+Read the PDF document. For each slide give a header and a clear, concise and explanatory narrative. The narrative should be writen in the 1st person, like if I was teaching. Include the explanation of illustrations when there are in the slide.
+
+### RESULTS:
+
+Here’s a slide-by-slide breakdown of the PDF **"0_introduction 1.pdf"**, written in the **first person** as if you were teaching the material. Each slide includes a **header**, a **clear narrative**, and **explanations of illustrations** where applicable.
+
+---
+
+### **Slide 1: Introduction to Cancer Classification**
+**Narrative:**  
+Let me start by introducing the problem we're tackling: classifying lesions as either **malignant** or **benign** using image data. On this slide, you can see two rows of images—**the top row shows malignant lesions**, and **the bottom row shows benign ones**.  
+To make this classification, we extract **features** from the images—these are measurable properties like shape or texture. Each image becomes a **sample** in our dataset, and each sample has a **label** indicating whether it's malignant or benign. This is the foundation of our machine learning pipeline.
+
+---
+
+### **Slide 2: Understanding Key Terms**
+**Narrative:**  
+Before we dive deeper, let’s clarify some terminology. A **feature** is a measurable attribute—like the roundness of a lesion. A **sample** (also called an instance or data point) is one example in our dataset. And the **label** is the known outcome we’re trying to predict—malignant or benign. These terms are essential for understanding how supervised learning works.
+
+---
+
+### **Slide 3: Using Eccentricity as a Feature**
+**Narrative:**  
+Now, let’s look at a specific feature: **eccentricity**, which measures how circular a lesion is. A perfect circle has an eccentricity of 0, and more elongated shapes have values closer to 1.
+
+We have two histograms here:
+- The **left histogram** shows the distribution of eccentricity values for **malignant lesions**. Notice how the values are generally higher—these lesions tend to be more elongated.
+- The **right histogram** shows the distribution for **benign lesions**, which are more circular and thus have lower eccentricity values.
+
+This visual difference suggests that eccentricity could be a useful feature for distinguishing between the two classes.
+
+---
+
+### **Slide 4: Threshold-Based Classification**
+**Narrative:**  
+Let’s see how we can use eccentricity to classify lesions. We set a **threshold value (t)**—if a lesion’s eccentricity is greater than **t**, we classify it as malignant; otherwise, it’s benign.
+
+The **histogram** here shows how lesions are distributed around the threshold. By adjusting **t**, we can control how many lesions fall into each category.
+
+The **table** is a **confusion matrix**, which summarizes the outcomes:
+- **True Positives (TP):** Malignant lesions correctly classified.
+- **False Negatives (FN):** Malignant lesions incorrectly classified as benign.
+- **False Positives (FP):** Benign lesions incorrectly classified as malignant.
+- **True Negatives (TN):** Benign lesions correctly classified.
+
+This helps us evaluate how well our classifier is performing.
+
+---
+
+### **Slide 5: Evaluating Classifier Performance**
+**Narrative:**  
+To assess our classifier, we use metrics derived from the confusion matrix:
+- **Accuracy** measures overall correctness.
+- **True Positive Rate (TPR)** tells us how many actual malignant cases we correctly identified.
+- **False Positive Rate (FPR)** tells us how many benign cases we incorrectly labeled as malignant.
+
+These metrics help us understand the trade-offs involved in choosing a threshold.
+
+---
+
+### **Slide 6: ROC Curve and AUC**
+**Narrative:**  
+Here, I introduce the **ROC curve**—a plot of TPR versus FPR for different threshold values. It shows how the classifier’s performance changes as we vary the threshold.  
+The **Area Under the Curve (AUC)** is a single number summarizing performance. A value close to 1 means excellent classification. In our example, the AUC is 0.98, which is very good.
+
+---
+
+### **Slide 7: Adding More Features**
+**Narrative:**  
+To improve classification, we can add another feature—**solidity**, which measures how compact a lesion is. Now, each sample is represented by a **feature vector** in a 2D space (eccentricity and solidity). This allows us to draw more complex decision boundaries and improve accuracy.
+
+---
+
+### **Slide 8: Linear SVM Classification**
+**Narrative:**  
+Here, I use a **Linear Support Vector Machine (SVM)** to classify lesions in the 2D feature space. The plot shows a **linear decision boundary**—everything on one side is classified as malignant (blue), and the other side as benign (red). This is a simple yet effective approach when the data is linearly separable.
+
+---
+
+### **Slide 9: Decision Trees for Nonlinear Boundaries**
+**Narrative:**  
+When the data isn’t linearly separable, we can use a **Decision Tree**. This model creates a nonlinear decision boundary by splitting the feature space into regions. It’s especially useful when we have more features and more complex patterns in the data.
+
+---
+
+### **Slide 10: Generalization and Overfitting**
+**Narrative:**  
+It’s important that our model performs well not just on training data, but also on **unseen external images**. This is called **generalization**. If the model is too complex, it might memorize the training data and fail on new data—a problem known as **overfitting**.
+
+---
+
+### **Slide 11: Data Normalization**
+**Narrative:**  
+When we use multiple features, they might be on different scales. For example, eccentricity might range from 0 to 100, while solidity ranges from -5 to 7. To ensure each feature contributes equally, we apply **data normalization**.
+
+We can use:
+- **Standardization**: Rescales features to have mean 0 and standard deviation 1.
+- **Min-max scaling**: Rescales features to a fixed range, like [0, 1].
+
+This step is crucial for many machine learning algorithms.
+
+---
+
+### **Slide 12: Visualizing Eccentricity Distributions in Python**
+**Narrative:**  
+Here, I use Python to load the eccentricity dataset and plot the distributions for malignant and benign lesions using **Seaborn**. The blue curve represents malignant cases, and the green curve represents benign ones. This visualization confirms what we saw earlier—malignant lesions tend to have higher eccentricity.
+
+---
+
+### **Slide 13: Confusion Matrix in Python**
+**Narrative:**  
+Using **Scikit-learn**, I compute the confusion matrix for a threshold of 0.7. The matrix shows:
+- 40 true positives
+- 10 false negatives
+- 0 false positives
+- 50 true negatives
+
+This gives us a clear picture of how well our classifier is performing.
+
+---
+
+### **Slide 14: ROC Curve in Python**
+**Narrative:**  
+Next, I plot the **ROC curve** using Scikit-learn. The curve rises quickly toward the top-left corner, indicating high sensitivity and specificity. The **AUC is 0.9792**, which confirms excellent performance.
+
+---
+
+### **Slide 15: Feature Space Visualization**
+**Narrative:**  
+This plot shows the 2D feature space with **eccentricity** on the x-axis and **solidity** on the y-axis. Each point is colored by its label—malignant or benign. This helps us visually assess how well the features separate the two classes.
+
+---
+
+### **Slide 16: Decision Tree Boundary in Python**
+**Narrative:**  
+I train a **Decision Tree Classifier** and plot its decision boundary. The model achieves **99% accuracy**, and the boundary clearly separates the two classes in the feature space. This shows how powerful decision trees can be for nonlinear classification.
+
+---
+
+### **Slide 17: Boxplot of Unscaled Features**
+**Narrative:**  
+Finally, I show a **boxplot** of unscaled gene expression features. You can see that the features vary widely in scale. This reinforces the need for normalization before feeding the data into a machine learning model.
+
+---
+
+Would you like me to turn this into a presentation or teaching script?
