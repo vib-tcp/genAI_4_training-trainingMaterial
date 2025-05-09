@@ -189,3 +189,83 @@ By the end of this workshop, participants will be able to:
 ---
 
 Would you like this syllabus formatted into a downloadable document or presentation?
+
+## Draft the Learning Outcomes using Blooms Taxonomy
+
+You can use a new prompt to copy the summary done in the session before or after saving into a file you can provide the PDF file again to AI. It is possible to do in the same prompt, but if the AI has started creating in the syllabus it can influence the result. A clean start could guide to cleaner results.
+
+### PROMPT:
+
+You are now an expert teacher in Machine Learning, experienced in developing lesson plans, and educational frameworks for effective and meaningful learning. 
+
+Your task is, based on the PDF summary and Syllabus to suggest 3 learning outcomes for each of the Bloom’s Taxonomy levels. Take into account the definition of the adiance to create appropriate outcomes. Format as bulleted list and includ in bold and in parenthesis by the end of the learning outcome to which level of the Blooms taxonomy its relates. 
+
+Consider the revised Blooms taxonomy from 2021. For each topic include one example of activity that the trainer could use to assess if the learning outcome was achieved by the student.
+
+### RESULT:
+
+Based on the summary of the document *"Introduction to Medical Image Classification and Feature-Based Modeling"*, here are **three learning topics for each level of the revised Bloom’s Taxonomy (2021)**, tailored for **PhD students in life sciences**. Each topic includes an example of an assessment activity to evaluate whether the learning outcome (LO) has been achieved.
+
+---
+
+**🔍 Remembering**
+- **Topic:** Define key terms in medical image classification (e.g., feature vector, threshold, TPR, FPR).
+  - *Assessment:* Multiple-choice quiz on definitions and basic concepts.
+- **Topic:** List types of feature scaling techniques (e.g., standardization, min-max scaling).
+  - *Assessment:* Flashcard-based recall activity or timed quiz.
+- **Topic:** Recall the effects of threshold adjustments on classification outcomes.
+  - *Assessment:* Fill-in-the-blank exercise describing TPR and FPR changes with threshold shifts.
+
+---
+
+**🧠 Understanding**
+- **Topic:** Explain how feature vectors represent medical images in Euclidean space.
+  - *Assessment:* Short written explanation or oral presentation with diagrams.
+- **Topic:** Describe the relationship between decision boundary complexity and overfitting.
+  - *Assessment:* Concept map creation linking model complexity, visualization, and generalization.
+- **Topic:** Interpret the impact of normalization on model fairness.
+  - *Assessment:* Annotated example comparing model outputs with and without normalization.
+
+---
+
+**🔧 Applying**
+- **Topic:** Apply min-max scaling to a dataset of lesion features.
+  - *Assessment:* Hands-on coding task using Python or R to normalize a dataset.
+- **Topic:** Use a threshold to classify a small set of medical images based on feature values.
+  - *Assessment:* Spreadsheet or script-based classification task with manual threshold tuning.
+- **Topic:** Implement a basic linear classifier and visualize the decision boundary.
+  - *Assessment:* Jupyter notebook submission with code, plots, and brief interpretation.
+
+---
+
+**🔍 Analyzing**
+- **Topic:** Analyze the trade-off between TPR and FPR at different thresholds.
+  - *Assessment:* ROC curve plotting and interpretation exercise.
+- **Topic:** Compare the effects of different normalization techniques on model performance.
+  - *Assessment:* Comparative analysis report using performance metrics (e.g., AUC).
+- **Topic:** Deconstruct a model’s decision boundary to identify signs of overfitting.
+  - *Assessment:* Case study analysis with visual inspection and justification.
+
+---
+
+**🧠 Evaluating**
+- **Topic:** Critique the suitability of linear vs. non-linear models for high-dimensional feature spaces.
+  - *Assessment:* Structured debate or peer-reviewed essay.
+- **Topic:** Evaluate the generalizability of a model trained on internal vs. external datasets.
+  - *Assessment:* Critical review of model performance on cross-validation vs. external test sets.
+- **Topic:** Assess the impact of feature selection on classification accuracy.
+  - *Assessment:* Experimental design and results interpretation report.
+
+---
+
+**🚀 Creating**
+- **Topic:** Design a feature extraction pipeline for a new type of medical image.
+  - *Assessment:* Project proposal with rationale, feature list, and expected challenges.
+- **Topic:** Develop a visualization tool to demonstrate decision boundaries in 2D feature space.
+  - *Assessment:* Interactive tool or dashboard with user guide.
+- **Topic:** Construct a research hypothesis on how feature scaling affects model interpretability.
+  - *Assessment:* Research abstract and experimental plan submission.
+
+---
+
+Would you like this formatted into a printable lesson plan or teaching guide?
