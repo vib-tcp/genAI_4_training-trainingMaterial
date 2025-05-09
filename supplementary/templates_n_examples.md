@@ -90,3 +90,102 @@ Normalization ensures that all features contribute equally to the model’s deci
 If you'd like, I can also visualize the concepts like decision boundaries or normalization effects. Would you like to explore that next?
 
 ## Draft a lesson syllabus
+
+To draft a syllabus taking in account the VIB template and minimum requirements. 
+
+### PROMPT
+
+You are an expert teacher in Machine Learning, proficient in creating engaging, well-developed and effective lesson syllabus for your students. Your task is to come up with the course syllabus based on the summary and description. Use only the information in the files, refrain of usgin any other information or assuming anythin. The syllabus of this lesson should be engaging and appropriate for PhD and Post-docs students. The syllabus should be written containing all the item in the guidelines and in this order. If an information is missing write "missing info".
+
+Guidelines:
+
+1. Title
+2. Description. One concize paragraph to desribe the general context of the lesson. It should be engaging and atractive. But casual.
+3. Include the learning outcomes (Blooms taxonomy) in a topic format and with the blooms level in parenthesis and bold at the end of each topic.
+4. Target audiance
+5. Prerequisites in a list. Classify them as Technical or Knowledge.
+6. Trainers list
+7. Course level (Begginer; Intermediate; Advanced)
+8. License (Creative commons)
+9. Funding
+10. Authors list
+
+### OBSERVATION & COMMENT
+
+The prompt worked quit well, except that inveted the learning outcomes. Usually it will be added from a different prompt.
+Maybe this prompt needs to come after to take into the write direction.
+
+### RESULT
+
+Here is a complete and structured course syllabus based strictly on the content from the provided files:
+
+---
+
+### **1. Title**
+**Introduction to Machine Learning & Deep Learning for Medical Image Classification**
+
+---
+
+### **2. Description**
+Dive into the world of machine learning and deep learning with this hands-on, beginner-friendly workshop tailored for VIB researchers. Over two days in Ghent, you'll explore how to classify medical images using feature-based models, understand the importance of data normalization, and learn how to build models that generalize well to unseen data. Whether you're a curious newcomer or a seasoned scientist, this workshop offers a practical and engaging entry point into the field.
+
+---
+
+### **3. Learning Outcomes**
+By the end of this workshop, participants will be able to:
+
+- Describe the basic principles of binary classification in medical imaging (**Understand**)
+- Identify and extract relevant features from medical images (**Apply**)
+- Analyze the impact of feature scaling and normalization on model performance (**Analyze**)
+- Evaluate classification models using metrics like TPR, FPR, and AUC (**Evaluate**)
+- Construct and interpret decision boundaries in low- and high-dimensional feature spaces (**Apply**)
+- Recognize and mitigate overfitting in machine learning models (**Understand**)
+
+---
+
+### **4. Target Audience**
+- VIB PhD students  
+- VIB postdocs  
+- VIB staff scientists  
+- VIB group leaders or experts  
+- VIB technical support staff  
+
+---
+
+### **5. Prerequisites**
+**Technical:**
+- Basic Python programming (or completion of the crash course in Python)
+
+**Knowledge:**
+- No prior knowledge of machine learning required  
+- Keen interest in learning ML concepts
+
+---
+
+### **6. Trainers List**
+- Robbin  
+- Ralf  
+
+---
+
+### **7. Course Level**
+**Beginner**
+
+---
+
+### **8. License**
+**Creative Commons** (exact type: **missing info**)
+
+---
+
+### **9. Funding**
+**missing info**
+
+---
+
+### **10. Authors List**
+**missing info**
+
+---
+
+Would you like this syllabus formatted into a downloadable document or presentation?
