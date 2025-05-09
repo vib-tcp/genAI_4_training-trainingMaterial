@@ -422,3 +422,84 @@ Finally, I show a **boxplot** of unscaled gene expression features. You can see 
 ---
 
 Would you like me to turn this into a presentation or teaching script?
+
+
+
+Here’s a bullet point list of the EU Research Competences (ResearchComp):
+
+# Evaluate courses in relation to European Competence Framework for Researchers (ResearchComp) 
+
+In this case best result arised from a combined and ste-by-step procedure.
+
+### STEP 1:
+
+REading the files and preventing AI to print all the files in the screen.
+
+** PROMTP 1:**
+
+Add summary.pdf and syllabus.pdf.
+Read both files and give me a 3 lines summary of each 
+
+** RESULT 1:**
+
+Here are the 3-line summaries for each document:
+
+### **ML_Copilot_summary 1.pdf**
+- The document introduces a binary classification task in medical imaging, distinguishing between malignant and benign lesions using feature vectors.
+- It explains feature extraction, model thresholding, and the impact of decision boundaries on model complexity and overfitting.
+- Emphasis is placed on generalization, normalization, and scaling to ensure robust and fair model performance.
+
+### **description 1.pdf**
+- This is a 2-day Machine Learning & Deep Learning workshop organized in Ghent for VIB researchers and staff.
+- It requires basic Python knowledge, with an optional crash course available for beginners.
+- No prior experience in machine learning is needed—just a strong interest in the topic.
+
+Would you like a visual summary or a comparison between the two?
+
+### STEP 2
+
+**PROMPT 2:**
+list the high level topics for research comp of the european competency
+
+**RESULT 2:**
+The **European Competence Framework for Researchers (ResearchComp)** outlines seven high-level research competency areas:
+
+1. **Cognitive Abilities** – Includes abstract, critical, analytical, strategic, and systemic thinking, as well as creativity and problem-solving.
+2. **Doing Research** – Covers disciplinary expertise, conducting scientific and interdisciplinary research, writing research documents, and applying ethics and integrity.
+3. **Managing Research** – Involves project management, resource mobilization, evaluation, negotiation, and promoting open access.
+4. **Managing Research Tools** – Focuses on data management, intellectual property, citizen science, and use of open-source tools.
+5. **Making an Impact** – Encompasses dissemination, teaching, public communication, policy influence, and innovation.
+6. **Working with Others** – Includes teamwork, networking, mentoring, inclusion, and professional interaction.
+7. **Self-Management** – Covers personal development, entrepreneurship, stress management, and self-organization [1](https://research-and-innovation.ec.europa.eu/jobs-research/researchcomp-european-competence-framework-researchers_en).
+
+Would you like a visual map or a breakdown of each area with examples?
+
+### STEP 3
+
+**PROMPT 3:**
+
+taking in consideration only the content in the files. Evaluate if the course can fit any of the RsearchComp. If so, name the topic and add an explanation to justify the suggestion. List only the ones which fit clearly within this course.
+
+**RESULT 3:**
+Based on the content of the two documents, the course clearly aligns with the following **ResearchComp** competency areas:
+
+---
+
+### **1. Doing Research**
+**Topic:** *Conducting scientific research and applying disciplinary knowledge*
+
+**Justification:**  
+The course introduces participants to medical image classification using machine learning, including feature extraction, model evaluation, and generalization. These are core components of conducting scientific research in data-driven disciplines.
+
+---
+
+### **2. Managing Research Tools**
+**Topic:** *Using digital tools and data management techniques*
+
+**Justification:**  
+The course involves Python programming, data normalization, and model evaluation techniques—skills essential for managing research data and using computational tools effectively in modern research environments.
+
+---
+
+Would you like me to map these to specific learning outcomes or suggest how to present this alignment in a report or presentation?
+
