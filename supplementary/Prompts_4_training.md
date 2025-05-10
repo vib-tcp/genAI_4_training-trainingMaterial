@@ -3,6 +3,12 @@
 Provide filet to AI. For this example the sample used was from ["Machine Learning Course 2day"](https://github.com/sdgroeve/Machine-Learning-Course-2days) from Sven Degroeve. Slide [_0_introduction.pdf_](https://github.com/sdgroeve/Machine-Learning-Course-2days/blob/main/slides/0_introduction.pdf).
 For this example was used Copilot. This test was run in May 2025.
 
+This prompts were inspired by:
+[AI 4 Education prompt library](https://www.aiforeducation.io/prompts)
+[Summary with AI, Maastricht University](https://library.maastrichtuniversity.nl/apps-tools/ai-prompt-library/summarise-with-ai-prompts/)
+[Strategic use of generative AI course from VIB](https://github.com/vibbits/introduction-to-generative-ai/blob/main/supplementary/prompting-templates-Morningactivity.md)
+
+
 
 ## 1. Get a summary of the course
 
