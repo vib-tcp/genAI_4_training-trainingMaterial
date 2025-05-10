@@ -77,7 +77,7 @@ In this case best result arised from a combined and ste-by-step procedure.
 
 Reading the files and preventing AI to print all the files in the screen. Use Syllabus, and summary files for this.
 
-### Prompt 1:
+### PROMPT 1:
 
 Add summary.pdf and syllabus.pdf.
 Read both files and give me a 3 lines summary of each 
