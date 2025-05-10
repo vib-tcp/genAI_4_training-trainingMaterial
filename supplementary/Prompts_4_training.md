@@ -25,7 +25,7 @@ Guidelines:
 5-The length of the summary must be appropriate for the length and complexity of the original text. The length must allow to capture the main points and key details,
 
 6-Ensure that the summary is well-organized and easy to read, with clear headings and subheadings to guide the reader through each section. Format each section in paragraph form
-![image](https://github.com/user-attachments/assets/82c14259-2b73-4fee-a99a-56d6f096d726)
+
 
 
 
