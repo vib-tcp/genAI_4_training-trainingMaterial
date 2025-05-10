@@ -27,8 +27,6 @@ Guidelines:
 6-Ensure that the summary is well-organized and easy to read, with clear headings and subheadings to guide the reader through each section. Format each section in paragraph form
 
 
-
-
 ## 2. Draft the Learning Outcomes using Blooms Taxonomy
 
 You can use a new prompt to copy the summary done in the session before or after saving into a file you can provide the PDF file again to AI. It is possible to do in the same prompt, but if the AI has started creating in the syllabus it can influence the result. A clean start could guide to cleaner results.
@@ -45,7 +43,28 @@ Consider the revised Blooms taxonomy from 2021. For each topic include one examp
 
 To draft a syllabus taking in account the VIB template and minimum requirements. 
 
-### PROMPT
+### PROMPT 1
+
+I want you to support me in writting the syllabus of my lesson.
+Based on the item I'm listing in the guidelines, I want you to read the pdf and fill up the field.
+If the information cannot be found in the file refrain of assuming or creating answers. Describe it as missin information. After you do the first taks, ask one question at the time, to fill up the missing fields based on my answer.
+
+Before we start greet me and ask me for the pdf file.
+
+Guidelines:
+
+1. Title
+2. Description. One concize paragraph to desribe the general context of the lesson. It should be engaging and atractive. But casual.
+3. Include the learning outcomes (Blooms taxonomy) in a topic format and with the blooms level in parenthesis and bold at the end of each topic.
+4. Target audiance
+5. Prerequisites in a list. Classify them as Technical or Knowledge.
+6. Trainers list
+7. Course level (Begginer; Intermediate; Advanced)
+8. License (Creative commons)
+9. Funding
+10. Authors list
+
+### PROMPT 2
 
 You are an expert teacher in Machine Learning, proficient in creating engaging, well-developed and effective lesson syllabus for your students. Your task is to come up with the course syllabus based on the summary and description. Use only the information in the files, refrain of usgin any other information or assuming anythin. The syllabus of this lesson should be engaging and appropriate for PhD and Post-docs students. The syllabus should be written containing all the item in the guidelines and in this order. If an information is missing write "missing info".
 
