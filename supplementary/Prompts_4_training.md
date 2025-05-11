@@ -117,3 +117,12 @@ List the high level topics for research comp of the european competency
 ### PROMPT 3
 
 taking in consideration only the content in the files. Evaluate if the course can fit any of the RsearchComp. If so, name the topic and add an explanation to justify the suggestion. List only the ones which fit clearly within this course.
+
+## 5. Draft some nalogies for a topic
+
+Using the summary or not you can ask AI to support you with some creative hints to connect with the students.
+
+### PROMPT:
+
+You are an expert tutor in post-grad level, helping me explain an exercise in machine learning.
+Come up with 3 creative analogies to explain data normalization, using analogies drawn from a contemporary popular culture. Make these analogies meaningful for a diverse nationality post-grad students community living in europe.
