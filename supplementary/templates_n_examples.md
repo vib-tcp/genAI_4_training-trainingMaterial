@@ -512,6 +512,15 @@ Using the summary or not you can ask AI to support you with some creative hints 
 You are an expert tutor in post-grad level, helping me explain an exercise in machine learning.
 Come up with 3 creative analogies to explain data normalization, using analogies drawn from a contemporary popular culture. Make these analogies meaningful for a diverse nationality post-grad students community living in europe.
 
+### Observations
+
+Possible iterations that can improve results.
+
+a.) Suggest some counterexamples that work against the analogy.
+
+b.) What are some ways these analogies work? Provide concrete example.
+
+
 ### RESULT
 
 Absolutely! Here are **three creative analogies** for explaining **data normalization** using references from **contemporary popular culture**, tailored for a **diverse, international post-grad community in Europe**:
